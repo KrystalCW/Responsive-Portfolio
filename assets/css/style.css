@@ -214,12 +214,13 @@ footer {
     padding: 20px 0px 0px 0px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
 
     .box1 {
         width: 100%;
         margin: 0;
         display: inline-block;
+        padding-bottom: 20px;
     }
     
     .title-box {
@@ -233,7 +234,7 @@ footer {
     }
 
     .main-content {
-        margin-top: 35%;
+        margin-top: 10%;
     }
 
     footer {
@@ -242,3 +243,15 @@ footer {
 
 
 }
+
+/* @media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 980px) {
+
+} */
