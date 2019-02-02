@@ -218,6 +218,7 @@ footer {
 
     .box1 {
         width: 100%;
+        max-width: 640px;
         margin: 0;
         display: inline-block;
         padding-bottom: 20px;
@@ -227,6 +228,14 @@ footer {
         width: 100%;
     }
 
+    .box2 {
+        margin-top: 0;
+    }
+
+    header {
+        position: static;
+    }
+
     #title, nav {
         clear: both;
         text-align: center;
@@ -234,7 +243,7 @@ footer {
     }
 
     .main-content {
-        margin-top: 10%;
+        margin-top: 0;
     }
 
     footer {
@@ -244,14 +253,25 @@ footer {
 
 }
 
-/* @media screen and (max-width: 640px) {
-
-}
-
 @media screen and (max-width: 768px) {
+
+    .box1, .box2 {
+        margin-right: 2%;
+        margin-left: 2%;
+        width: 96%;
+        max-width: 768px;
+    }
+
+    #contact {
+        margin-right: 10px;
+    }
+
+    header {
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width: 980px) {
 
-} */
+}
